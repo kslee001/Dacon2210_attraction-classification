@@ -155,8 +155,8 @@
     total_loss **=** loss1 x **0.025** **+** loss2 x **0.05** **+** loss3 x **0.925**
     - 15~ epoch:
     total_loss **=** loss1 x **0.01** **+** loss2 x **0.03** **+** loss3 x **0.96**
-- Loss의 계산식은 변경하였지만, Hierarchical Loss Network를 위해 구현된 모델 구조는 그대로 이용
-    - cat1을 예측하기 위해 사용된 결과 값이 cat2 예측에 흘러들어감
+- Loss의 계산식은 변경하였지만, Hierarchical Loss Network 적용 과정에서 구현되었던 모델 구조는 그대로 이용함
+    - cat1을 예측하기 위해 사용된 결과 값이 cat2 예측에 흘러들어감          
     - cat2를 예측하기 위해 사용된 결과 값이 cat3 예측에 흘러들어감
     - linear classifier + concat
 - 대회 막바지에 이르러 모델 앙상블을 도입하였음
@@ -168,7 +168,7 @@
 ### 의의 :
 
 - Multimodality 에 대해 이해할 수 있었음
-    - 단순히 두 modality에 대한 vector를 concat하는 것보다 더 좋은 방법은 없을까…?
+    - 단순히 두 modality에 대한 vector를 concat하는 것보다 더 좋은 방법은 없을까…? 에 대한 답을 얻지 못해 아쉽다.  
 - CV 관련 모델을 두루두루 배울 수 있었음
     - inception network
         - 구닥다리 모델이긴 하지만, 다양한 크기의 필터를 이용하는 아이디어는 가져갈만 한 것 같다.
