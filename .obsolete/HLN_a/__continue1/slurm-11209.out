@@ -1,0 +1,24 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/home/gyuseonglee/dacon/Dacon/HLN_a/__continue1/main_continue1.py", line 4, in <module>
+    from __continue1.config_continue1 import *
+ModuleNotFoundError: No module named '__continue1'
+srun: error: c06: task 0: Exited with exit code 1
