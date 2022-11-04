@@ -1,4 +1,8 @@
 # DACON_2210 : 관광데이터 AI 경진대회
+- Computer Vision  
+- Natural Language Processing  
+- Classification  
+- Multimodal Learning  
 
 ## 후기
 
