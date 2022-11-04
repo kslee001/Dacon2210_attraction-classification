@@ -150,11 +150,11 @@
 - (2)의 방법이 성능이 더 좋아서 이를 이용함
 - 최종적으로는 epoch에 따라 cat1, cat2, cat3에 의해 발생되는 loss의 비율을 조정한 방식을 이용하였음
     - 0~10 epoch : 
-    total_loss **=** loss1*****0.05 **+** loss2*****0.1 **+** loss3*****0.85
+    total_loss **=** loss1 x **0.05 **+** loss2 x **0.1 **+** loss3 x **0.85
     - 10~15 epoch : 
-    total_loss **=** loss1*****0.025 **+** loss2*****0.05 **+** loss3*****0.925
+    total_loss **=** loss1 x **0.025 **+** loss2 x **0.05 **+** loss3 x **0.925
     - 15~ epoch:
-    total_loss **=** loss1*****0.01 **+** loss2*****0.03 **+** loss3*****0.96
+    total_loss **=** loss1 x **0.01 **+** loss2 x **0.03 **+** loss3 x **0.96
 - Loss의 계산식은 변경하였지만, Hierarchical Loss Network를 위해 구현된 모델 구조는 그대로 이용
     - cat1을 예측하기 위해 사용된 결과 값이 cat2 예측에 흘러들어감
     - cat2를 예측하기 위해 사용된 결과 값이 cat3 예측에 흘러들어감
